@@ -9,4 +9,8 @@ public with sharing class GitLearning {
     public void sayHello() {
         system.debug('Hello\n');
     }
+    
+    public void printText(String txt) {
+        system.debug(txt);
+    }
 }
