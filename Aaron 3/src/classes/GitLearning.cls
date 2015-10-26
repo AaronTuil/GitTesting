@@ -1,5 +1,5 @@
 public with sharing class GitLearning {
-    Integer number;
+    Integer num;
     String str;
     
     public void counting() {
