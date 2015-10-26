@@ -1,4 +1,7 @@
 public with sharing class GitLearning {
+    Integer number;
+    String str;
+    
     public void counting() {
         integer[] arr = new Integer[]{1, 2, 6, 9, 12};
 
