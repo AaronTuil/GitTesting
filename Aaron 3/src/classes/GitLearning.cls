@@ -14,8 +14,9 @@ public with sharing class GitLearning {
         system.debug(sum);
     }
 
-    public void sayHello() {
-        system.debug('Hello\n');
+    public void counter(Integer n) {
+        for(Integer i : n)
+        	system.debug(i + ' ');
     }
     
     public void printText(String txt) {
